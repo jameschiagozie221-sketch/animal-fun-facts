@@ -1,0 +1,23 @@
+/* === GENERAL BODY - Make am clean === */
+body {
+  font-family: 'Comic Sans MS', 'Arial', sans-serif; /* Fun font for kids */
+  background: linear-gradient(135deg, #E0F7FA 0%, #B2EBF2 100%); /* Light blue like river */
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+/* === MAIN TITLE - Make am pop === */
+h1 {
+  color: #00695C; /* Dark green like forest */
+  font-size: 45px;
+  text-shadow: 3px 3px 0px #FFD54F; /* Yellow shadow like sun */
+  margin-bottom: 30px;
+}
+
+/* === ALL ANIMAL BOXES - General style === */
+div[id] { /* Targets all divs with id="lion", id="tiger", etc */
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 400px;
